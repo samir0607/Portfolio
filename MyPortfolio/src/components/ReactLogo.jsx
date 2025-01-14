@@ -6,13 +6,13 @@ import { EffectComposer, Bloom } from '@react-three/postprocessing'
 
 const ReactLogo = (props) => {
   return (
-    <mesh {...props} scale={0.7}>
+    <mesh {...props} scale={0.5}>
       <Float speed={4} rotationIntensity={1} floatIntensity={2}>
         <Atom />
       </Float>
       <Stars saturation={0} count={400} speed={0.5} />
       <EffectComposer>
-        <Bloom mipmapBlur luminanceThreshold={1} radius={0.8} />
+        <Bloom mipmapBlur luminanceThreshold={1} radius={0.3} />
       </EffectComposer>
     </mesh>
   )
@@ -32,7 +32,7 @@ const Atom = (props) => {
   )
 }
 
-const Electron = ({ radius = 2, speed = 6, ...props }) => {
+const Electron = ({ radius = 2.3, speed = 6, ...props }) => {
   const ref = useRef()
   useFrame((state) => {
     const t = state.clock.getElapsedTime() * speed
