@@ -45,14 +45,15 @@ const About = () => {
                 backgroundImageOpacity={0.5}
                 showAtmosphere
                 showGraticules
-                globeImageUrl="//unpkg.com/three-globe/example/img/earth-day.jpg"
+                globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
+                backgroundImageUrl='//unpkg.com/three-globe/example/img/night-sky.png'
               />
             </div>
             <div>
               <p className="grid-headtext">Flexible for Remote works across most timezones</p>
               <p className="grid-subtext">Currently based in Delhi, India</p>
-              <Button name="Contact Me" isBeam={true} containerClass="w-full mt-10"/>
+              <Button className="w-full" name="Contact Me" isBeam={true} containerClass="w-full mt-10"/>
             </div>
           </div>
         </div>
