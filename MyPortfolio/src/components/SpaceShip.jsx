@@ -2,6 +2,8 @@ import { useGLTF } from '@react-three/drei';
 import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Color } from 'three';
+import { Light } from 'three/src/Three.Core.js';
+import { Lighting } from 'three/webgpu';
 
 const SpaceShip = (props) => {
   const shipRef = useRef();
@@ -9,15 +11,14 @@ const SpaceShip = (props) => {
 
   const radius = 12;
   const angle = useRef(0);
-  const speed = 1.2; // radians per second
+  const speed = 1.2;
   const prev = useRef({ x: 0, y: 0, z: 0 });
 
   useFrame((_, delta) => {
-    // Use delta to update angle based on time (not frames)
     angle.current += speed * delta;
 
     const x = Math.cos(angle.current) * radius;
-    const y = -Math.cos(angle.current); // subtle Y motion
+    const y = -Math.cos(angle.current);
     const z = Math.sin(angle.current) * radius;
 
     const ship = shipRef.current;
@@ -52,11 +53,11 @@ const SpaceShip = (props) => {
         geometry={nodes.Object_4.geometry}
         material={materials['03_-_Default']}
         rotation={[-Math.PI / 2, 0, 0]}>
-        <directionalLight position={[0, 0, 2]} intensity={1.2} />
+        <directionalLight intensity={1} />
         <meshStandardMaterial
-          color={new Color('#12cffa')}
+          color={new Color('#72cffa')}
           metalness={1.22}
-          roughness={0.5}
+          roughness={0.55}
         />
       </mesh>
     </group>

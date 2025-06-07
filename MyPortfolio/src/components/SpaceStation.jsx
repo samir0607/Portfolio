@@ -6,7 +6,7 @@ const SpaceStation = (props) => {
   const { nodes } = useGLTF('/models/space_station.glb')
 
   const darkMetalMaterial = useMemo(() => ({
-    color: new Color('#12cffa'),
+    color: new Color('#72cffa'),
     metalness: 1.12,
     roughness: 0.4
   }), [])

@@ -40,7 +40,7 @@ const Hero = () => {
               <SpaceShip position={sizes.targetPosition}/>
               <ReactLogo position={sizes.reactLogoPosition}/>
               <Astronaut position={sizes.astronautPosition}/>
-              <Rings position={sizes.ringPosition}/>
+              {/* <Rings position={sizes.ringPosition}/> */}
             </group>
 
             <ambientLight intensity={0.5} />
