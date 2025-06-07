@@ -77,7 +77,7 @@ const Projects = () => {
           </div>
         </div>
 
-        <div className="border border-black-300 bg-black-200 rounded-lg h-96 md:h-full">
+        <div className="border border-black-300 bg-black-200 bg-transparent rounded-lg h-96 md:h-full">
           <Canvas>
             <ambientLight intensity={Math.PI} />
             <directionalLight position={[10, 10, 5]} />
@@ -88,7 +88,7 @@ const Projects = () => {
                 </group>
               </Suspense>
             </Center>
-            <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} />
+            {/* <OrbitControls maxPolarAngle={Math.PI / 2} enableZoom={false} /> */}
           </Canvas>
         </div>
       </div>

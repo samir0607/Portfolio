@@ -13,24 +13,20 @@ const DemoComputer = (props) => {
   useEffect(() => {
     if (txt) {
       txt.flipY = true;
-      txt.minFilter = THREE.LinearFilter;
-      txt.magFilter = THREE.LinearFilter;
-      txt.generateMipmaps = false;
-      txt.encoding = THREE.sRGBEncoding;
     }
   }, [txt]);
 
   useGSAP(() => {
     gsap.from(group.current.rotation, {
-      y: Math.PI / 2,
-      duration: 2,
+      y: Math.PI * 2,
+      duration: 3,
       ease: 'power3.out',
     });
   }, [txt]);
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <group rotation={[1.45, 0, 0.4]} position={[0.45, -0.75, 0]} scale={1}>
+      <group rotation={[1.5, 0, 0.4]} position={[0.45, -0.75, -0.1]} scale={0.95}>
         <mesh
           geometry={nodes.Object_4.geometry}
           material={materials['Material.005']}
