@@ -14,7 +14,7 @@ const SpaceStation = (props) => {
   const emissiveMaterial = useMemo(() => ({
     color: new Color('#000000'),
     emissive: new Color('#00ffff'),
-    emissiveIntensity: 2.5,
+    emissiveIntensity: 1.5,
     toneMapped: false
   }), [])
 

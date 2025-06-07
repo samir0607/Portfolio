@@ -43,8 +43,8 @@ const Hero = () => {
               <Rings position={sizes.ringPosition}/>
             </group>
 
-            <ambientLight intensity={1} />
-            <directionalLight position={[7.5, 4, -8]} intensity={10} />
+            <ambientLight intensity={0.5} />
+            <directionalLight position={[6, 4, -8]} intensity={3} />
          </Suspense>
         </Canvas>
       </div>
