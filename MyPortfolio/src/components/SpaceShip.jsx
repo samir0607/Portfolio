@@ -18,7 +18,7 @@ const SpaceShip = (props) => {
     angle.current += speed * delta;
 
     const x = Math.cos(angle.current) * radius;
-    const y = -Math.cos(angle.current);
+    const y = -Math.cos(angle.current) * 1.5;
     const z = Math.sin(angle.current) * radius;
 
     const ship = shipRef.current;
