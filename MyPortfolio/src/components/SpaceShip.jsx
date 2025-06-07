@@ -52,7 +52,7 @@ const SpaceShip = (props) => {
         geometry={nodes.Object_4.geometry}
         material={materials['03_-_Default']}
         rotation={[-Math.PI / 2, 0, 0]}>
-        <directionalLight position={[0, 0, 2]} intensity={1.5} />
+        <directionalLight position={[0, 0, 2]} intensity={1.2} />
         <meshStandardMaterial
           color={new Color('#12cffa')}
           metalness={1.22}
