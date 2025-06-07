@@ -40,7 +40,7 @@ const Electron = ({ radius = 2.3, speed = 6, ...props }) => {
   })
   return (
     <group {...props}>
-      <Trail  width={5} length={10} color={new THREE.Color(2, 1, 10)} attenuation={(t) => t * t}>
+      <Trail  width={2} length={5} color={new THREE.Color(2, 1, 10)} attenuation={(t) => t * t}>
         <mesh ref={ref}>
           <sphereGeometry args={[0.25]} />
           <meshBasicMaterial color={[10, 1, 10]} toneMapped={false} />
