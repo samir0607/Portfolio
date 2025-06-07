@@ -8,26 +8,29 @@ const SpaceStation = (props) => {
   const darkMetalMaterial = useMemo(() => ({
     color: new Color('#12cffa'),
     metalness: 1.12,
-    roughness: 0.42
+    roughness: 0.4
   }), [])
 
   const emissiveMaterial = useMemo(() => ({
     color: new Color('#000000'),
     emissive: new Color('#00ffff'),
-    emissiveIntensity: 2,
+    emissiveIntensity: 2.5,
     toneMapped: false
   }), [])
 
   const renderMesh = (geometry, isEmissive = false) => (
-    <mesh geometry={geometry} rotation={[-Math.PI / 2, 0, 0]} scale={100}>
+    <mesh 
+			geometry={geometry} 
+			rotation={[-Math.PI / 2, 0, 0]} 
+			scale={100}>
       <meshStandardMaterial {...(isEmissive ? emissiveMaterial : darkMetalMaterial)} />
     </mesh>
   )
 
   return (
     <group {...props} dispose={null}>
-      <group rotation={[-1.8, -0.1002, -0.0034]}>
-        <group rotation={[Math.PI / 2, 0, 0]} scale={0.18}>
+      <group rotation={[-1.8, -0.13, 0]} position={[0, -19, 40]}>
+        <group rotation={[Math.PI / 2, 0, 0]} scale={0.19}>
           {renderMesh(nodes.spacestation001_low_Main_0.geometry)}
           {renderMesh(nodes.spacestation002_low_Main_0.geometry)}
           {renderMesh(nodes.spacestation003_low_Main_0.geometry)}

@@ -7,10 +7,10 @@ import { useGSAP } from '@gsap/react';
 import { useRef, useState } from 'react';
 import { Float, useGLTF} from '@react-three/drei';
 
-const Cube = ({ ...props }) => {
+const Astronaut = ({ ...props }) => {
   const { nodes, materials } = useGLTF('/models/astronaut.glb')
 
-  const cubeRef = useRef();
+  const astronautRef = useRef();
   const [hovered, setHovered] = useState(false);
 
   useGSAP(() => {
@@ -20,7 +20,7 @@ const Cube = ({ ...props }) => {
         yoyo: true,
         repeatDelay: 0,
       })
-      .to(cubeRef.current.rotation, {
+      .to(astronautRef.current.rotation, {
         y: hovered ? '+=2' : `+=${Math.PI * 2}`,
         x: hovered ? '+=2' : `-=${Math.PI * 2}`,
         duration: 7.5,
@@ -29,7 +29,7 @@ const Cube = ({ ...props }) => {
 
   return (
     <Float floatIntensity={2}>
-        <group {...props} dispose={null} scale={0.04} ref={cubeRef} rotation={[-90, 0, 90]}>
+        <group {...props} dispose={null} scale={0.04} ref={astronautRef} rotation={[-90, 0, 90]}>
           <mesh
             geometry={nodes.Mesh_0397_rip_mat0001_0.geometry}
             material={materials['mat0.001']}
@@ -46,4 +46,4 @@ const Cube = ({ ...props }) => {
 
 useGLTF.preload('models/astronaut.glb');
 
-export default Cube;
+export default Astronaut;

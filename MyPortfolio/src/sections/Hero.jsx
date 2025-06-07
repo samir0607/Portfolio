@@ -6,7 +6,7 @@ import CanvasLoader from '../components/CanvasLoader.jsx'
 import { calculateSizes } from '../constants/index.js'
 import SpaceShip from '../components/SpaceShip.jsx'
 import ReactLogo from '../components/ReactLogo.jsx'
-import Cube from '../components/Cube.jsx'
+import Astronaut from '../components/Astronaut.jsx'
 import Rings from '../components/Rings.jsx'
 import { Leva } from 'leva'
 import HeroCamera from '../components/HeroCamera.jsx'
@@ -20,8 +20,8 @@ const Hero = () => {
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
       <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-        <p className='sm:text-4xl test-xl font-medium text-white text-center font-captain'>Hi, I am Samir Gupta<span className="waving-hand">👋</span></p>
-        <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
+        <p className='xl:text-6xl md:text-5xl sm:text-3xl text-3xl font-medium text-white text-center font-captain'>Samir Gupta<span className="waving-hand">👾</span></p>
+        <p className="hero_tag text-gray_gradient">Turning Ideas Into Impact</p>
       </div>
       <div className="w-full h-full absolute inset-0">
         <Canvas className="w-full h-full">
@@ -39,12 +39,12 @@ const Hero = () => {
             <group>
               <SpaceShip position={sizes.targetPosition}/>
               <ReactLogo position={sizes.reactLogoPosition}/>
-              <Cube position={sizes.cubePosition}/>
+              <Astronaut position={sizes.astronautPosition}/>
               <Rings position={sizes.ringPosition}/>
             </group>
 
             <ambientLight intensity={1} />
-            <directionalLight position={[10,5, -10]} intensity={10} />
+            <directionalLight position={[7.5, 4, -8]} intensity={10} />
          </Suspense>
         </Canvas>
       </div>
