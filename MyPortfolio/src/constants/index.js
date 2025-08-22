@@ -34,15 +34,17 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: 'Women Safety App',
-    desc: 'The Women Safety App is an innovative solution designed to ensure the safety and empowerment of women in any situation. This app helped our team to quaify for SIH 2024.',
+    title: 'R-8: Rocket.Chat Doc Assistant',
+    desc: 'R-8 simplifies navigating lengthy documentation by delivering direct, conversational answers instead of forcing users to sift through pages of text.',
     subdesc:
-      'Built as a SOS app with Flutter, Dart, FireBase, ans soon will be integrated with AI for other key features AI-Powered Threat Detection, smart Audio & Video Recording, safe route calculation, and much more. The app like is designed for optimal performance and scalability.',
-    href: 'https://github.com/samir0607/StudioProjects',
+      'Deployed an AI assistant for Rocket.Chat docs using semantic search achieving 95%+ accuracy. Scraped 15+ web pages and indexed 321 vector embeddings in AstraDB for real-time retrieval. Handled 5400+ user queries in 30 days with average response time <5ms, validating production-readiness and user demand.',
+    href: 'https://rocketchat-doc-assistant.vercel.app/',
     texture: '/textures/project/project1.mp4',
-    logo: '/assets/logo.png',
+    logo: '/assets/rocketchat.png',
     logoStyle: {
-      backgroundColor: '#2A1846',
+      backgroundColor: '#775aa5ff',
+      background:
+        'linear-gradient(0deg, #07267d50, #0f3a3d50), linear-gradient(180deg, rgba(5, 121, 23, 0.9) 0%, rgba(14, 79, 34, 0.8) 100%)',
       border: '0.2px solid rgb(23, 31, 52)',
       boxShadow: '0px 0px 60px 0px rgba(32, 52, 107, 0.3)',
     },
@@ -50,8 +52,81 @@ export const myProjects = [
     tags: [
       {
         id: 1,
-        name: 'Dart',
-        path: '/assets/dart.png',
+        name: 'React',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'NextJs',
+        path: 'assets/nextjs.png',
+      },
+      {
+        id: 3,
+        name: 'AstraDB',
+        path: '/assets/astradb.png',
+      },
+      {
+        id: 4,
+        name: 'OpenAI',
+        path: '/assets/openai.png',
+      },
+    ],
+  },
+  {
+    title: 'GenZ: POS System',
+    desc: 'Built a full-featured POS system using Next.js and supabase, designed to streamline sales transactions and inventory management for a business GenZ Collection.',
+    subdesc:
+      'The system supports real-time order processing, dynamic inventory tracking, analytical dashboard and invoice generation, offering an intuitive and responsive interface. By combining frontend performance with robust backend APIs, this project demonstrates practical problem-solving, scalable architecture, and user-centric design tailored for business efficiency.',
+    href: 'https://github.com/samir0607/InventoryMgmtSystem',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/Inventory.png',
+    logoStyle: {
+      backgroundColor: '#2d4337ff',
+      background:
+        'linear-gradient(0deg, #172c2050, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgba(208, 213, 221, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'NextJs',
+        path: 'assets/nextjs.png',
+      },
+      {
+        id: 3,
+        name: 'Supabase',
+        path: '/assets/mysql.svg',
+      },
+    ],
+  },
+  {
+    title: '',
+    desc: 'R-8 simplifies navigating lengthy documentation by delivering direct, conversational answers instead of forcing users to sift through pages of text.',
+    subdesc:
+      'Deployed an AI assistant for Rocket.Chat docs using semantic search achieving 95%+ accuracy. Scraped 15+ web pages and indexed 321 vector embeddings in AstraDB for real-time retrieval. Handled 5400+ user queries in 30 days with average response time <5ms, validating production-readiness and user demand.',
+    href: 'https://github.com/samir0607/StudioProjects',
+    texture: '/textures/project/project2.mp4',
+    logo: '/assets/logo.png',
+    logoStyle: {
+      backgroundColor: '#2A1846',
+      background:
+        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid rgb(23, 31, 52)',
+      boxShadow: '0px 0px 60px 0px rgba(32, 52, 107, 0.3)',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'NextJs',
+        path: '/assets/next.png',
       },
       {
         id: 2,
@@ -66,19 +141,21 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Amazon E-Commerce Website - Clone',
+    title: 'Amazon - Clone',
     desc: "An Amazon clone project designed to replicate key features of the popular e-commerce platform. This project includes functionalities like product browsing, cart management, and a secure checkout process. Built using modern web technologies, it offers a responsive design, dynamic data rendering, and seamless user experience, serving as a comprehensive showcase of e-commerce application development.",
     subdesc:
       'Helped me learn JavaScript.',
-    href: 'https://github.com/samir0607/All-Files/tree/main/html/Javascript/Amazon%20Project',
-    texture: '/textures/project/project2.mp4',
+    href: 'https://amazon-com-clone-498.vercel.app/',
+    texture: '/textures/project/project3.mp4',
     logo: '/assets/amazon.svg',
     logoStyle: {
-      backgroundColor: '#13202F',
-      border: '0.2px solid #17293E',
-      boxShadow: '0px 0px 60px 0px #2F6DB54D',
+      backgroundColor: '#ffffffff',
+      background:
+        'linear-gradient(0deg, #eeeeee50, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+      border: '0.2px solid #484a16ff',
+      boxShadow: '0px 0px 60px 0px #e2ec2e4d',
     },
-    spotlight: '/assets/spotlight2.png',
+    spotlight: '/assets/spotlight3.png',
     tags: [
       {
         id: 1,
@@ -98,36 +175,36 @@ export const myProjects = [
     ],
   },
   {
-    title: 'Inventory Management System',
-    desc: 'An innovative inventory management platform designed to streamline products. Build this from scratch with Java, JavaSwing and MySQL as a college project.',
+    title: 'Women Safety App',
+    desc: 'The Women Safety App is an innovative solution designed to ensure the safety and empowerment of women in any situation. This app helped our team to quaify for SIH 2024.',
     subdesc:
-      'A collaborative work with the team served as the team leader. I was responsible for designing the UI and backend logic.',
-    href: 'https://github.com/samir0607/InventoryMgmtSystem',
-    texture: '/textures/project/project3.mp4',
-    logo: '/assets/Inventory.png',
+      'Built as a SOS app with Flutter, Dart, FireBase, ans soon will be integrated with AI for other key features AI-Powered Threat Detection, smart Audio & Video Recording, safe route calculation, and much more. The app like is designed for optimal performance and scalability.',
+    href: 'https://github.com/samir0607/StudioProjects',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/logo.png',
     logoStyle: {
-      backgroundColor: '#60f5a1',
+      backgroundColor: '#cfc7dbff',
       background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgba(208, 213, 221, 1)',
-      boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
+        'linear-gradient(0deg, #380b8450, #444acc50), linear-gradient(180deg, rgba(232, 44, 44, 0.9) 0%, rgba(126, 155, 202, 0.8) 100%)',
+      border: '0.5px solid rgba(37, 46, 70, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(32, 52, 107, 0.3)',
     },
-    spotlight: '/assets/spotlight3.png',
+    spotlight: '/assets/spotlight1.png',
     tags: [
       {
         id: 1,
-        name: 'Java',
-        path: '/assets/java.svg',
+        name: 'Dart',
+        path: '/assets/dart.png',
       },
       {
         id: 2,
-        name: 'Swing',
-        path: 'assets/swing.svg',
+        name: 'Flutter',
+        path: 'assets/flutter.svg',
       },
       {
         id: 3,
-        name: 'MySQL',
-        path: '/assets/mysql.svg',
+        name: 'FireBase',
+        path: '/assets/firebase.svg',
       },
     ],
   },
