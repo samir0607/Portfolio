@@ -77,7 +77,7 @@ export const myProjects = [
     desc: 'Built a full-featured POS system using Next.js and supabase, designed to streamline sales transactions and inventory management for a business GenZ Collection.',
     subdesc:
       'The system supports real-time order processing, dynamic inventory tracking, analytical dashboard and invoice generation, offering an intuitive and responsive interface. By combining frontend performance with robust backend APIs, this project demonstrates practical problem-solving, scalable architecture, and user-centric design tailored for business efficiency.',
-    href: 'https://github.com/samir0607/InventoryMgmtSystem',
+    href: 'https://admin-genz.vercel.app/products',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/Inventory.png',
     logoStyle: {
@@ -106,40 +106,40 @@ export const myProjects = [
       },
     ],
   },
-  {
-    title: '',
-    desc: 'R-8 simplifies navigating lengthy documentation by delivering direct, conversational answers instead of forcing users to sift through pages of text.',
-    subdesc:
-      'Deployed an AI assistant for Rocket.Chat docs using semantic search achieving 95%+ accuracy. Scraped 15+ web pages and indexed 321 vector embeddings in AstraDB for real-time retrieval. Handled 5400+ user queries in 30 days with average response time <5ms, validating production-readiness and user demand.',
-    href: 'https://github.com/samir0607/StudioProjects',
-    texture: '/textures/project/project2.mp4',
-    logo: '/assets/logo.png',
-    logoStyle: {
-      backgroundColor: '#2A1846',
-      background:
-        'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-      border: '0.2px solid rgb(23, 31, 52)',
-      boxShadow: '0px 0px 60px 0px rgba(32, 52, 107, 0.3)',
-    },
-    spotlight: '/assets/spotlight2.png',
-    tags: [
-      {
-        id: 1,
-        name: 'NextJs',
-        path: '/assets/next.png',
-      },
-      {
-        id: 2,
-        name: 'Flutter',
-        path: 'assets/flutter.svg',
-      },
-      {
-        id: 3,
-        name: 'FireBase',
-        path: '/assets/firebase.svg',
-      },
-    ],
-  },
+  // {
+  //   title: '',
+  //   desc: 'R-8 simplifies navigating lengthy documentation by delivering direct, conversational answers instead of forcing users to sift through pages of text.',
+  //   subdesc:
+  //     'Deployed an AI assistant for Rocket.Chat docs using semantic search achieving 95%+ accuracy. Scraped 15+ web pages and indexed 321 vector embeddings in AstraDB for real-time retrieval. Handled 5400+ user queries in 30 days with average response time <5ms, validating production-readiness and user demand.',
+  //   href: 'https://github.com/samir0607/StudioProjects',
+  //   texture: '/textures/project/project2.mp4',
+  //   logo: '/assets/logo.png',
+  //   logoStyle: {
+  //     backgroundColor: '#2A1846',
+  //     background:
+  //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+  //     border: '0.2px solid rgb(23, 31, 52)',
+  //     boxShadow: '0px 0px 60px 0px rgba(32, 52, 107, 0.3)',
+  //   },
+  //   spotlight: '/assets/spotlight2.png',
+  //   tags: [
+  //     {
+  //       id: 1,
+  //       name: 'NextJs',
+  //       path: '/assets/next.png',
+  //     },
+  //     {
+  //       id: 2,
+  //       name: 'Flutter',
+  //       path: 'assets/flutter.svg',
+  //     },
+  //     {
+  //       id: 3,
+  //       name: 'FireBase',
+  //       path: '/assets/firebase.svg',
+  //     },
+  //   ],
+  // },
   {
     title: 'Amazon - Clone',
     desc: "An Amazon clone project designed to replicate key features of the popular e-commerce platform. This project includes functionalities like product browsing, cart management, and a secure checkout process. Built using modern web technologies, it offers a responsive design, dynamic data rendering, and seamless user experience, serving as a comprehensive showcase of e-commerce application development.",
