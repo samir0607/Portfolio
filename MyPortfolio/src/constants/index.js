@@ -106,40 +106,45 @@ export const myProjects = [
       },
     ],
   },
-  // {
-  //   title: '',
-  //   desc: 'R-8 simplifies navigating lengthy documentation by delivering direct, conversational answers instead of forcing users to sift through pages of text.',
-  //   subdesc:
-  //     'Deployed an AI assistant for Rocket.Chat docs using semantic search achieving 95%+ accuracy. Scraped 15+ web pages and indexed 321 vector embeddings in AstraDB for real-time retrieval. Handled 5400+ user queries in 30 days with average response time <5ms, validating production-readiness and user demand.',
-  //   href: 'https://github.com/samir0607/StudioProjects',
-  //   texture: '/textures/project/project2.mp4',
-  //   logo: '/assets/logo.png',
-  //   logoStyle: {
-  //     backgroundColor: '#2A1846',
-  //     background:
-  //       'linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
-  //     border: '0.2px solid rgb(23, 31, 52)',
-  //     boxShadow: '0px 0px 60px 0px rgba(32, 52, 107, 0.3)',
-  //   },
-  //   spotlight: '/assets/spotlight2.png',
-  //   tags: [
-  //     {
-  //       id: 1,
-  //       name: 'NextJs',
-  //       path: '/assets/next.png',
-  //     },
-  //     {
-  //       id: 2,
-  //       name: 'Flutter',
-  //       path: 'assets/flutter.svg',
-  //     },
-  //     {
-  //       id: 3,
-  //       name: 'FireBase',
-  //       path: '/assets/firebase.svg',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'Finix AI: Financial Advisor',
+    desc: 'Stop drowning in financial noise — Finix AI gives you clarity when every decision counts.',
+    subdesc:
+      'An AI-powered financial advisor that uses 3+ APIs to gather current news sentiment and market movements, improving user decision-making speed by 40%. Engineered context-aware logic using GeminiAPI to distinguish between 2 query types (educational vs transactional), enhancing relevance of responses by 70%. Architected a fully serverless backend using FastAPI and Firebase, reducing API response time to ensuring 99.9% uptime.',
+    href: 'https://github.com/samir0607/Finix.ai',
+    texture: '/textures/project/project4.mp4',
+    logo: '/assets/finix.png',
+    logoStyle: {
+      backgroundColor: '#2A1846',
+      background:
+        'linear-gradient(0deg, #00000050, #05001b50), linear-gradient(180deg, rgba(46, 0, 0, 0.9) 0%, rgba(0, 16, 42, 0.8) 100%)',
+      border: '0.5px solid rgba(252, 252, 252, 1)',
+      boxShadow: '0px 0px 60px 0px rgba(32, 52, 107, 0.3)',
+    },
+    spotlight: '/assets/spotlight2.png',
+    tags: [
+      {
+        id: 1,
+        name: 'Dart',
+        path: '/assets/dart.png',
+      },
+      {
+        id: 2,
+        name: 'Flutter',
+        path: 'assets/flutter.svg',
+      },
+      {
+        id: 3,
+        name: 'FireBase',
+        path: '/assets/firebase.svg',
+      },
+      {
+        id: 4,
+        name: 'Gemini',
+        path: '/assets/gemini.svg',
+      },
+    ],
+  },
   {
     title: 'Amazon - Clone',
     desc: "An Amazon clone project designed to replicate key features of the popular e-commerce platform. This project includes functionalities like product browsing, cart management, and a secure checkout process. Built using modern web technologies, it offers a responsive design, dynamic data rendering, and seamless user experience, serving as a comprehensive showcase of e-commerce application development.",
@@ -179,7 +184,7 @@ export const myProjects = [
     desc: 'The Women Safety App is an innovative solution designed to ensure the safety and empowerment of women in any situation. This app helped our team to quaify for SIH 2024.',
     subdesc:
       'Built as a SOS app with Flutter, Dart, FireBase, ans soon will be integrated with AI for other key features AI-Powered Threat Detection, smart Audio & Video Recording, safe route calculation, and much more. The app like is designed for optimal performance and scalability.',
-    href: 'https://github.com/samir0607/StudioProjects',
+    href: 'https://github.com/samir0607/group-proj',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/logo.png',
     logoStyle: {
