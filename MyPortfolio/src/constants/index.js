@@ -23,12 +23,12 @@ export const navLinks = [
 
 export const clientReviews = [
   {
-    // id: 2,
-    // name: 'Anushka Thebe',
-    // position: 'Founder of Next Shop',
-    // img: 'assets/review2.png',
-    // review:
-    //   'Samir`s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+    id: 2,
+    name: 'Anushka Thebe',
+    position: 'Architect Intern',
+    img: 'assets/review2.png',
+    review:
+      'Samir`s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
   },
 ];
 
@@ -76,7 +76,7 @@ export const myProjects = [
     title: 'GenZ: POS System',
     desc: 'Built a full-featured POS system using Next.js and supabase, designed to streamline sales transactions and inventory management for a business GenZ Collection.',
     subdesc:
-      'The system supports real-time order processing, dynamic inventory tracking, analytical dashboard and invoice generation, offering an intuitive and responsive interface. By combining frontend performance with robust backend APIs, this project demonstrates practical problem-solving, scalable architecture, and user-centric design tailored for business efficiency.',
+      'The system supports real-time order processing, dynamic inventory tracking, analytical dashboard and invoice generation, offering an intuitive and responsive interface. By frontend performance + robust backend APIs, this project demonstrates practical problem-solving, scalable architecture, and user-centric design tailored for business efficiency.',
     href: 'https://admin-genz.vercel.app/products',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/Inventory.png',
