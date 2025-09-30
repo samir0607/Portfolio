@@ -76,7 +76,7 @@ export const myProjects = [
     title: 'GenZ: POS System',
     desc: 'Built a full-featured POS system using Next.js and supabase, designed to streamline sales transactions and inventory management for a business GenZ Collection.',
     subdesc:
-      'The system supports real-time order processing, dynamic inventory tracking, analytical dashboard and invoice generation, offering an intuitive and responsive interface. By frontend performance + robust backend APIs, this project demonstrates practical problem-solving, scalable architecture, and user-centric design tailored for business efficiency.',
+      'The system supports real-time order processing, dynamic inventory tracking, analytical dashboard and invoice generation, offering an intuitive and responsive interface. This project demonstrates practical problem-solving, scalable architecture, and user-centric design tailored for business efficiency.',
     href: 'https://admin-genz.vercel.app/products',
     texture: '/textures/project/project2.mp4',
     logo: '/assets/Inventory.png',
@@ -102,7 +102,12 @@ export const myProjects = [
       {
         id: 3,
         name: 'Supabase',
-        path: '/assets/mysql.svg',
+        path: '/assets/supabase.png',
+      },
+      {
+        id: 4,
+        name: 'Postgresql',
+        path: '/assets/pgsql.svg',
       },
     ],
   },
@@ -110,7 +115,7 @@ export const myProjects = [
     title: 'Finix AI: Financial Advisor',
     desc: 'Stop drowning in financial noise — Finix AI gives you clarity when every decision counts.',
     subdesc:
-      'An AI-powered financial advisor that uses 3+ APIs to gather current news sentiment and market movements, improving user decision-making speed by 40%. Engineered context-aware logic using GeminiAPI to distinguish between 2 query types (educational vs transactional), enhancing relevance of responses by 70%. Architected a fully serverless backend using FastAPI and Firebase, reducing API response time to ensuring 99.9% uptime.',
+      'An AI-powered financial advisor that uses 3+ APIs to gather current news sentiment and market movements, improving user decision-making speed by 40%. Engineered context-aware logic using GeminiAPI to distinguish between 2 query types (educational vs transactional), enhancing relevance of responses by 70%. The serverless and firebase architecture insures 99.9% uptime',
     href: 'https://github.com/samir0607/Finix.ai',
     texture: '/textures/project/project4.mp4',
     logo: '/assets/finix.png',
@@ -147,9 +152,9 @@ export const myProjects = [
   },
   {
     title: 'Amazon - Clone',
-    desc: "An Amazon clone project designed to replicate key features of the popular e-commerce platform. This project includes functionalities like product browsing, cart management, and a secure checkout process. Built using modern web technologies, it offers a responsive design, dynamic data rendering, and seamless user experience, serving as a comprehensive showcase of e-commerce application development.",
+    desc: "An Amazon clone project designed to replicate key features of the popular e-commerce platform. This project includes functionalities like product browsing, cart management, and a secure checkout process with a responsive UI",
     subdesc:
-      'Helped me learn JavaScript.',
+    'This project played a pivotal role in deepening my understanding of JavaScript. Through the process of replicating complex e-commerce functionalities, I gained hands-on experience with core JavaScript concepts, asynchronous operations, and dynamic data handling.',
     href: 'https://amazon-com-clone-498.vercel.app/',
     texture: '/textures/project/project3.mp4',
     logo: '/assets/amazon.svg',
@@ -183,7 +188,7 @@ export const myProjects = [
     title: 'Women Safety App',
     desc: 'The Women Safety App is an innovative solution designed to ensure the safety and empowerment of women in any situation. This app helped our team to quaify for SIH 2024.',
     subdesc:
-      'Built as a SOS app with Flutter, Dart, FireBase, ans soon will be integrated with AI for other key features AI-Powered Threat Detection, smart Audio & Video Recording, safe route calculation, and much more. The app like is designed for optimal performance and scalability.',
+      'Built as a SOS app with Flutter, Dart, FireBase, ans soon will be integrated with AI for other key features AI-Powered Threat Detection, real-time alerts, SOS services, smart Audio & Video Recording, safe route calculation, and much more. The app like is designed for optimal performance and scalability.',
     href: 'https://github.com/samir0607/group-proj',
     texture: '/textures/project/project5.mp4',
     logo: '/assets/logo.png',
