@@ -79,15 +79,15 @@ export const myProjects = [
       'The system supports real-time order processing, dynamic inventory tracking, analytical dashboard and invoice generation, offering an intuitive and responsive interface. This project demonstrates practical problem-solving, scalable architecture, and user-centric design tailored for business efficiency.',
     href: 'https://admin-genz.vercel.app/products',
     texture: '/textures/project/project2.mp4',
-    logo: '/assets/Inventory.png',
+    logo: '/assets/genz.png',
     logoStyle: {
-      backgroundColor: '#2d4337ff',
+      backgroundColor: '#352d43ff',
       background:
-        'linear-gradient(0deg, #172c2050, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)',
+        'linear-gradient(0deg, #172c2050, #9c60f550), linear-gradient(180deg, rgba(88, 68, 177, 0.9) 0%, rgba(65, 94, 143, 0.8) 100%)',
       border: '0.2px solid rgba(208, 213, 221, 1)',
       boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
     },
-    spotlight: '/assets/spotlight3.png',
+    spotlight: '/assets/spotlight5.png',
     tags: [
       {
         id: 1,
@@ -108,6 +108,38 @@ export const myProjects = [
         id: 4,
         name: 'Postgresql',
         path: '/assets/pgsql.svg',
+      },
+    ],
+  },
+  {
+    title: 'Architect Portfolio',
+    desc: 'An engaging and interactive portfolio website with the best animations crafted for an architecture student, showcasing their creativity, projects, and vision. Designed with a sleek, modern layout, the site highlights their design expertise and innovation. Featuring dedicated sections for bio, project gallery, and professional links, it provides an impactful digital presence that reflects their talent and individuality.',
+    subdesc:
+      'Built with React.js, tailwindcss, next.js, this project ensures a smooth and responsive 3D design',
+    href: 'https://anushkathebe.vercel.app/',
+    texture: '/textures/project/project7.mp4',
+    logo: '/assets/AnushkaLogo.png',
+    logoStyle: {
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight3.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/tailwindcss.png',
+      },
+      {
+        id: 3,
+        name: 'Next.js',
+        path: '/assets/nextjs.png',
       },
     ],
   },
@@ -185,12 +217,44 @@ export const myProjects = [
     ],
   },
   {
+    title: 'Data Analysis',
+    desc: 'Developed a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.',
+    subdesc:
+      'Designed a Medallion Architecture-based warehouse integrating ERP & CRM into a star schema. Built ETL pipelines with 98% data accuracy and used SCD-1 logic to update dimension tables. Created dashboards on Metabase to analyze customer behavior and sales performance.',
+    href: 'https://github.com/samir0607/Data-Analyst-Portfolio',
+    texture: '/textures/project/project5.mp4',
+    logo: '/assets/dataportfolio.png',
+    logoStyle: {
+      backgroundColor: '#0E1F38',
+      border: '0.2px solid #0E2D58',
+      boxShadow: '0px 0px 60px 0px #2F67B64D',
+    },
+    spotlight: '/assets/spotlight4.png',
+    tags: [
+      {
+        id: 1,
+        name: 'SQL server',
+        path: '/assets/sqlserver.svg',
+      },
+      {
+        id: 2,
+        name: 'TailwindCSS',
+        path: 'assets/azuredatastudio.png',
+      },
+      {
+        id: 3,
+        name: 'Metabase',
+        path: '/assets/metabase.png',
+      },
+    ],
+  },
+  {
     title: 'Women Safety App',
     desc: 'The Women Safety App is an innovative solution designed to ensure the safety and empowerment of women in any situation. This app helped our team to quaify for SIH 2024.',
     subdesc:
       'Built as a SOS app with Flutter, Dart, FireBase, ans soon will be integrated with AI for other key features AI-Powered Threat Detection, real-time alerts, SOS services, smart Audio & Video Recording, safe route calculation, and much more. The app like is designed for optimal performance and scalability.',
     href: 'https://github.com/samir0607/group-proj',
-    texture: '/textures/project/project5.mp4',
+    texture: '/textures/project/project6.mp4',
     logo: '/assets/logo.png',
     logoStyle: {
       backgroundColor: '#cfc7dbff',
@@ -215,43 +279,6 @@ export const myProjects = [
         id: 3,
         name: 'FireBase',
         path: '/assets/firebase.svg',
-      },
-    ],
-  },
-  {
-    title: 'MyPortfolio',
-    desc: 'An interactive portfolio website showcasing my skills, projects, and achievements. Designed with a modern and responsive layout, it highlights my expertise in web development, programming, and design. The portfolio features sections for about me, work samples, contact information, and integrated links to my professional profiles, providing a comprehensive view of my capabilities and experience',
-    subdesc:
-      'Built with React.js, tailwindcss, three.js, this project ensures a smooth and responsive 3D design',
-    href: 'https://github.com/samir0607/Portfolio/tree/main/MyPortfolio',
-    texture: '/textures/project/project4.mp4',
-    logo: '/assets/project-logo4.png',
-    logoStyle: {
-      backgroundColor: '#0E1F38',
-      border: '0.2px solid #0E2D58',
-      boxShadow: '0px 0px 60px 0px #2F67B64D',
-    },
-    spotlight: '/assets/spotlight4.png',
-    tags: [
-      {
-        id: 1,
-        name: 'React.js',
-        path: '/assets/react.svg',
-      },
-      {
-        id: 2,
-        name: 'TailwindCSS',
-        path: 'assets/tailwindcss.png',
-      },
-      {
-        id: 3,
-        name: 'Three.js',
-        path: '/assets/three.png',
-      },
-      {
-        id: 4,
-        name: 'Node.js',
-        path: '/assets/nodejs.svg',
       },
     ],
   },
