@@ -11,7 +11,7 @@ import DemoComputer from '../components/DemoComputer.jsx';
 const projectCount = myProjects.length;
 const Projects = () => {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
-
+  const [isDisabled, setIsDisabled] = useState(false);
   const handleNavigation = (direction) => {
     setSelectedProjectIndex((prevIndex) => {
       if(direction =='previous'){
@@ -20,6 +20,8 @@ const Projects = () => {
         return prevIndex === projectCount - 1 ? 0 : prevIndex + 1
       }
     });
+    setIsDisabled(true);
+    setTimeout(() => setIsDisabled(false), 1000);
   }
 
   useGSAP(() => {
@@ -71,7 +73,7 @@ const Projects = () => {
               <img src="/assets/left-arrow.png" alt="left arrow" />
             </button>
 
-            <button className="arrow-btn" onClick={() => handleNavigation('next')}>
+            <button className="arrow-btn" onClick={() => handleNavigation('next')} disabled={isDisabled}>
               <img src="/assets/right-arrow.png" alt="right arrow" className="w-4 h-4" />
             </button>
           </div>
