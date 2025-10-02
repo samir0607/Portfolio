@@ -1,9 +1,22 @@
+"use client"
 import Globe from "react-globe.gl"
 import Button from "../components/Button"
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
+  const globeRef = useRef();
+
+  useEffect(() => {
+    if (globeRef.current) {
+      const controls = globeRef.current.controls();
+      controls.minPolarAngle = Math.PI / 2;
+      controls.maxPolarAngle = Math.PI / 2;
+      controls.autoRotate = true;
+      controls.autoRotateSpeed = 2;
+    }
+  }, []);
+
   const handleCopy = () => {
     navigator.clipboard.writeText('samir.gupta987@gmail.com');
     setHasCopied(true);
@@ -41,6 +54,7 @@ const About = () => {
               <Globe
                 height={326}
                 width={326}
+                ref={globeRef}
                 showAtmosphere
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
